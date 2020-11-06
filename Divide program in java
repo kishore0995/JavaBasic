@@ -1,0 +1,27 @@
+can any  one tell how to Get result that Number can not be divide by zero..instead of Infinity..Here I am getting Result as Infinity when i try to divide by zero
+
+
+
+
+System.out.println("Enter the Number of number you want to Divide and give any character to get result");
+
+				double answer = s.nextDouble();
+
+				while (true) {
+					
+					s.nextLine();
+					
+					if (!s.hasNextDouble())
+						break;
+
+					answer /= s.nextDouble();
+				}
+
+				System.out.println(answer);
+			
+        
+        
+        
+        
+        
+        
